@@ -1,0 +1,304 @@
+/* colour palette
+	Orange - #fda52d
+	Background (header-footer) - #262827
+	Darker (than Background) - #222021
+	Lighter 01 - #323433
+	Lighter 02 - #323433
+	Lighter 03 - #696f6f
+*/
+
+::-webkit-scrollbar{
+	display: none;
+}
+body{
+	background-color: #404445;
+	width: 100%;
+	margin: 0 auto;
+}
+@font-face {
+	font-family: title;
+	src: url(../fonts/montserratbold.ttf);
+}
+@font-face {
+	font-family: paragraph;
+	src: url(../fonts/montserratregular.ttf);
+}
+.header {
+	width: 100%;
+	background-color: #262827;
+}
+.header img { /* Traktor tutes logo - top left */
+	width: 20%;
+	margin: 0.5%;
+}
+.headtab {
+	width: 98%;
+	float: left;
+	height: auto;
+}
+.headtab div{ /* head tab */
+	width: 16.666%;
+	background-color: #404445; /* #404445 */
+	float: left;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+}
+.headtab div:hover #imagerotate { /* image rotate effect */
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -oz-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+}
+.headtab div div{ /* word/title sizes */
+	width: 78%;
+	float: left;
+}
+.headtab div div img{ /* heading text images */
+	width: 100%;
+	float: left;
+}
+.headtab div section{
+	width: 22%;
+	float: right;
+	margin-top: 2%;
+	transition: all 0.3s ease-in-out 0s;
+}
+.headtab div section img{ /* heading rotate hover images - orange logo */
+	width: 100%;
+	float: right;
+}
+.headimg {
+	background-color: #404445;
+}
+.headimg img{
+	width: 100%;
+}
+.jumpbox{ /* jump to box with links to parts of the page */
+	width: 18%;
+	background-color: #262827;
+	border-radius: 1% white;
+	position: fixed;	
+	float: right;
+	margin-top: 2.5%;
+	margin-left: -15%; /* sets position off screen to allow hover effects to bring it on screen */
+	
+	opacity: 0.5;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+.jumpbox:hover{
+	opacity: 0.9;
+	margin-left: 0%; /* brings div on screen */
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+.jumpbox div img{
+	width: 10%;
+	float: right;
+	margin-right: 5%;
+	
+	opacity: 0.7;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+}
+.jumpbox div img{
+	opacity: 1;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+}
+.jumpbox div{
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.jumpbox div a {
+	color: white;
+	font-family: paragraph;
+	font-size: 1rem;
+	text-decoration: none;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+.jumpbox div a:hover{
+	color: orange;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+.jumpup { /* fixed jump to the top arrow, floating */
+	position: fixed;
+}
+.jumpup img {
+	width: 4%;
+	position: fixed;
+	float: left;
+	bottom: 2%;
+	margin-left: 93%;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+	opacity: 0.5;
+}
+.jumpup img:hover {
+	opacity: 1;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+.contentbox01 {
+	width: 100%;
+	float: left;
+	background-color: #323433;
+}
+.contentbox01 div{ /* content box 1 */
+	width: 50%;
+	float: left;
+}
+.contentbox01 div h2{ /* Title of content box 1 */
+	width: 90%;
+	font-family: title;
+	font-size: 3rem;
+	float: left;
+	color: white;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+.contentbox01 div p{ /* words of content box 1 */
+	width: 80%;
+	font-family: paragraph;
+	font-size: 1.5rem;	
+	float: left;
+	color: white;
+	margin-left: 10%;
+	margin-top: 1.5%;
+}
+.contentbox01 section { /* box of image box 1 */
+	width: 50%;
+	float: right;
+}
+.contentbox01 section img{ /* image of content box 1 */
+	width: 75%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.contentbox01 {
+	width: 100%;
+	float: right;
+	background-color: #323433;
+}
+.contentbox02 div{ /* content box 2 */
+	width: 50%;
+	float: right;
+}
+.contentbox02 div h2{ /* Title of content box 2 */
+	width: 100%;
+	font-family: title;
+	font-size: 3rem;	
+	float: right;
+	color: white;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+.contentbox02 div p{ /* words of content box 2 */
+	width: 97%;
+	font-family: paragraph;
+	font-size: 1.5rem;
+	float: left;
+	color: white;
+}
+.contentbox02 section { /* box of image box 2 */
+	width: 50%;
+	float: left;
+}
+.contentbox02 section img{ /* image of content box 2 */
+	width: 75%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+.footer { /* footer with links */
+	width: 100%;
+	float: left;
+	background-color: #222021;
+}
+.footer div {
+	width: 33%;
+	float: left;
+}
+.footer div h2{
+	width: 80%;
+	float: left;
+	color: white;
+	font-family: title;
+	font-size: 3rem;	
+	font-size: 1.1rem;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+.footer div p{
+	width: 80%;
+	float: left;
+	color: white;	
+	font-family: paragraph;
+	font-size: 1.1rem;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+.footer div a{
+	width: 80%;
+	float: left;
+	color: white;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	text-decoration: none;
+	font-family: paragraph;
+	text-size: 0.9rem;
+	opacity: 1;
+	transition: all 0.3s ease-in-out 0s;
+}
+.footer div a:hover{ /* link hover */
+	color: #fda52d;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+.copyright {
+	width: 50%;
+	float: left;
+	font-family: paragraph;
+	font-size: 0.8rem;
+	margin-left: 1%;
+	margin-top: 0px;
+	color: white;
+	transition: all 0.3s ease-in-out 0s;
+	text-decoration: none;
+	background-color: #222021;	
+}
+.copyright:hover { /* link hover */
+	color: #fda52d;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
