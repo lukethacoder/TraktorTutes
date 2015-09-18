@@ -5,6 +5,7 @@
 	Lighter 01 - #323433
 	Lighter 02 - #323433
 	Lighter 03 - #696f6f
+	
 */
 
 ::-webkit-scrollbar{
@@ -23,13 +24,14 @@ body{
 	font-family: paragraph;
 	src: url(../fonts/montserratregular.ttf);
 }
+
 .header {
 	width: 100%;
 	background-color: #262827;
 }
 .header img { /* Traktor tutes logo - top left */
 	width: 20%;
-	margin: 0.5%;
+	margin: 0.5%;	
 }
 .headtab {
 	width: 98%;
@@ -301,4 +303,170 @@ body{
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	-oz-transition: all 0.3s ease-in-out 0s;
 	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+@media screen and (max-width: 721px){
+.header {
+	width: 100%;
+	background-color: #262827;
+}
+.header img { /* Traktor tutes logo - top left */
+	width: 60%;
+	float: left;
+	margin: 0.5%;
+	margin-left: 20%;
+}
+.headtab {
+	width: 98%;
+	float: left;
+	height: auto;
+}
+.headtab div{ /* head tab */
+	width: 90%;
+	background-color: #404445; /* #404445 */
+	float: left;
+	margin: 0;
+}
+.headtab div div{ /* word/title sizes */
+	width: 75%;
+	background-color: #404445; /* #404445 */	
+	margin-left: 35%;	
+	float: left;
+}
+.headtab div div img{ /* heading text images */
+	width: 50%;
+	float: left;
+}
+.headtab div section{
+	width: 22%;
+	float: right;
+	margin-top: 2%;
+	transition: all 0.3s ease-in-out 0s;
+}
+.headtab div section img{ /* heading rotate hover images - orange logo */
+	display: none;	
+}
+.headimg {
+	background-color: #404445;
+}
+.headimg img{
+	width: 100%;
+}
+.jumpbox{ /* jump to box with links to parts of the page */
+	display: none;
+}
+.jumpup { /* fixed jump to the top arrow, floating */
+	display: none;
+}
+.contentbox01 {
+	width: 100%;
+	float: left;
+	background-color: #323433;
+}
+.contentbox01 div{ /* content box 1 */
+	width: 50%;
+	float: left;
+}
+.contentbox01 div h2{ /* Title of content box 1 */
+	width: 90%;
+	font-family: title;
+	font-size: 1.5rem;
+	float: left;
+	color: white;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+.contentbox01 div p{ /* words of content box 1 */
+	width: 80%;
+	font-family: paragraph;
+	font-size: 0.75rem;	
+	float: left;
+	color: white;
+	margin-left: 10%;
+	margin-top: 1.5%;
+}
+.contentbox01 section { /* box of image box 1 */
+	width: 50%;
+	float: right;
+}
+.contentbox01 section img{ /* image of content box 1 */
+	width: 75%;
+	margin-top: 25%;
+	margin-bottom: 5%;
+}
+.contentbox01 {
+	width: 100%;
+	float: right;
+	background-color: #323433;
+}
+.contentbox02 div{ /* content box 2 */
+	width: 50%;
+	float: right;
+}
+.contentbox02 div h2{ /* Title of content box 2 */
+	width: 100%;
+	font-family: title;
+	font-size: 1.5rem;	
+	float: right;
+	color: white;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+.contentbox02 div p{ /* words of content box 2 */
+	width: 97%;
+	font-family: paragraph;
+	font-size: 0.75rem;
+	float: left;
+	color: white;
+}
+.contentbox02 section { /* box of image box 2 */
+	width: 50%;
+	float: left;
+}
+.contentbox02 section img{ /* image of content box 2 */
+	width: 75%;
+	margin-top: 25%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+.footer { /* footer with links */
+	width: 100%;
+	float: left;
+	background-color: #222021;
+}
+.footer div {
+	width: 80%;
+	float: left;
+}
+.footer div h2{
+	width: 100%;
+	float: left;
+	color: white;
+	font-family: title;	
+	font-size: 0.8rem;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+.footer div a{
+	width: 80%;
+	float: left;
+	color: white;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	text-decoration: none;
+	font-family: paragraph;
+	font-size: 0.5rem;
+}
+.copyright {
+	width: 50%;
+	float: left;
+	font-family: paragraph;
+	font-size: 0.4rem;
+	margin-left: 2.5%;
+	margin-top: 0px;
+	margin-bottom: 2.5%;
+	color: white;
+	text-decoration: none;
+	background-color: #222021;	
+}
 }
