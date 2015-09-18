@@ -18,14 +18,6 @@
 	margin-right: 2.5%;
 	margin-bottom: 2.5%;	
 }
-#ytvid02{
-	width: 40%;
-	height: 30rem;
-	float: left;
-	margin-top: 2.5%;
-	margin-left: 2.5%;
-	margin-bottom: 2.5%;
-}
 .part01 {
 	width: 100%;
 	background-color: #323433;
@@ -117,13 +109,6 @@
 	margin-top: 10%;
 	color: white;
 }
-.part02 section img {
-	width: 35%;
-	float: right;
-	margin-right: 5%;
-	margin-top: 1%;
-	margin-bottom: 1%;
-}
 .part03 {
 	width: 100%;
 	background-color: #323433;
@@ -141,18 +126,14 @@
 	width: 50%;
 	float: right;
 	margin-right: 2%;
+	margin-bottom: 5%;	
 }
-.part03 section div h2 {
-	width: 100%;
-	font-family: title;
-	font-size: 3rem;
-	float: right;
-	margin-right: 2.5%;
-	margin-bottom: 0;
-	color: white;
-}
-.part03 section div a img{
-	display: none;
+.part03 section img{
+	width: 35%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 1%;
 }
 .part03 section div p {
 	width: 100%;
@@ -160,13 +141,6 @@
 	font-size: 1.5rem;
 	float: right;
 	margin-right: 2.5%;
-	margin-top: 10%;
+	margin-top: 5%;
 	color: white;
-}
-.part02 section img {
-	width: 35%;
-	float: left;
-	margin-left: 5%;
-	margin-top: 1%;
-	margin-bottom: 1%;
 }
