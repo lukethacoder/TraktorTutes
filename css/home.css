@@ -1,0 +1,103 @@
+/* colour palette
+	Orange - #fda52d
+	Background (header-footer) - #262827
+	Darker (than Background) - #222021
+	Lighter 01 - #323433
+	Lighter 02 - #323433
+	Lighter 03 - #696f6f
+*/
+#topfloat{
+	margin-top: 15%;
+	padding-top: 2.5%;
+}
+#container{
+	width: 100%;
+	overflow: hidden;
+}
+#slider{
+	width: 100%;
+	position: absolute;
+	float: left;
+	background-color: green;
+}
+#slider img{
+	width: 100%;
+}
+.slideactive{
+	width: 100%;
+	margin-top: 0;
+}
+.slide{
+	position: absolute;
+	width: 100%;
+}
+.slide-copy{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: purple;
+}
+.slideimg {
+	width: 100%;
+}
+#prev, #next { /* arrow buttons - slider controlls */
+	width: 2.5%;
+	margin-top: 18%;
+	top: 10%;
+	cursor: pointer;
+	position: relative;		
+	z-index: 50;
+	
+	opacity: 0.3;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+#prev {
+	left: 1%;
+	float: left;
+}
+#next {
+	right: 1%;
+	float: right;
+}
+#prev:hover{
+	opacity: 0.9;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+#next:hover{
+	opacity: 0.9;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-oz-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;	
+}
+@media screen and (max-width: 721px){
+#topfloat{
+	margin-top: 10%;
+	padding-top: 2.5%;
+}
+#prev, #next { /* arrow buttons - slider controlls */
+	width: 10%;
+	margin-top: 18%;
+	top: 10%;
+	cursor: pointer;
+	position: relative;		
+	z-index: 50;
+	
+	opacity: 0.2;	
+}
+#prev {
+	left: 1%;
+	float: left;
+}
+#next {
+	right: 1%;
+	float: right;
+}
+}

@@ -1,0 +1,126 @@
+/* colour palette
+	Orange - #fda52d
+	Background (header-footer) - #262827
+	Darker (than Background) - #222021
+	Lighter 01 - #323433
+	Lighter 02 - #323433
+	Lighter 03 - #696f6f
+*/
+#info {
+	width: 100%;
+	background-color: #222021;
+}
+span {
+	position: relative;
+}
+.hoverimg01{
+	width: 20%;
+	position: absolute;
+}
+.hoverimg02{
+	width: 20%;
+	position: absolute;
+}
+.hoverimg03{
+	width: 10%;
+	position: absolute;
+}
+.part01 {
+	width: 100%;
+	background-color: #323433;
+	float: left;
+}
+.part01 section { /* content boxes */
+	width: 98%;
+	background-color: #222021;
+	float: left;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+}	
+.part01 section div {
+	width: 98%;
+	float: left;
+	margin-left: 2%;
+}
+.part01 section div h2 {
+	width: 100%;
+	font-family: title;
+	font-size: 3rem;
+	float: left;
+	margin-left: 1%;
+	margin-bottom: 0;
+	color: white;
+}
+.part01 section div p {
+	width: 98%;
+	font-family: paragraph;
+	font-size: 1.5rem;
+	float: left;
+	margin-left: 1%;
+	margin-top: 2%;
+	color: white;
+}
+.part01 section img {
+	width: 98%;
+	float: right;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.part02 {
+	width: 100%;
+	background-color: #323433;
+	float: left;
+}
+.part02 section { /* content boxes */
+	width: 98%;
+	background-color: #222021;
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+}	
+.part02 section div {
+	width: 50%;
+	float: left;
+	margin-left: 2%;
+}
+.part02 section div h2 {
+	width: 100%;
+	font-family: title;
+	font-size: 3rem;
+	float: left;
+	margin-left: 2.5%;
+	margin-bottom: 0;
+	color: white;
+}
+.part02 section div a{ /* button hover image */
+	text-decoration: none;
+	color: white;
+	cursor: default;
+}
+.part02 section div a:hover img{ /* button hover image */
+	width: 7.5%;
+	display: block;
+	float: right;
+}
+.part02 section div a img{
+	display: none;
+}
+.part02 section div p {
+	width: 100%;
+	font-family: paragraph;
+	font-size: 1.5rem;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 10%;
+	color: white;
+}
+.part02 section img {
+	width: 35%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
